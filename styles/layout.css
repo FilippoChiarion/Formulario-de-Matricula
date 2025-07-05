@@ -10,12 +10,12 @@ main {
     overflow: auto;
     padding: 4rem;
 
-    &.main-container {
+    & .main-container {
         max-width: 33rem;
         margin-left: auto;
     }
 
-    &.back {
+    & .back {
         display: flex;
         align-items: center;
         gap: .5rem;
@@ -32,7 +32,7 @@ aside {
     background-color: var(--surface-secondary);
     padding: 4rem;
 
-    &.aside-container {
+    & .aside-container {
         max-width: 31rem;
 
         & > img {
